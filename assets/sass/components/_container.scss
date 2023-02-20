@@ -13,8 +13,8 @@
   }
 
   .container__box {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border: 1px solid red;
     @include transform(rotate(30deg));
   }

@@ -1,33 +1,36 @@
+@use "../abstracts/mixin";
+@use "../abstracts/variables";
+
 .header {
-  @include setka;
+  @include mixin.setka;
 
   .header__title {
-    font-size: 30px;
+    font-size: 90px;
     // color: blueviolet;
-    color: $text-color;
+    color: variables.$text-color;
   }
   .header__subtitle {
     // color: blue;
-    color: $text-color;
+    color: variables.$text-color;
   }
   .header__img {
-    background-image: url(../img/34e974e177bb11ee9ad5ceda526c50ab_upscaled.jpeg);
+    background-image: url("../img/34e974e177bb11ee9ad5ceda526c50ab_upscaled.jpeg");
     min-height: 200px;
   }
 }
 
 @media screen and (max-width: 750px) {
   .header {
-    @include setka;
+    @include mixin.setka;
 
     .header__title {
       font-size: 30px;
       // color: blueviolet;
-      color: $text-color;
+      color: variables.$text-color;
     }
     .header__subtitle {
       // color: blue;
-      color: $text-color;
+      color: variables.$text-color;
     }
     .header__img {
       background-image: url(../img/34e974e177bb11ee9ad5ceda526c50ab_upscaled.jpeg);

@@ -1,9 +1,11 @@
+@use "../abstracts/mixin";
+@use "../abstracts/variables";
+
 .footer {
-  @include setka;
+  @include mixin.setka;
 
   .footer__text {
-    font-size: 16px;
+    font-size: variables.$font-size-medium;
     color: red;
   }
-
 }

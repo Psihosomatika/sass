@@ -1,9 +1,9 @@
-@import "fonts";
-@import "variables";
-@import "mixin";
-@import "components/header";
+@use "base/fonts";
+@use "abstracts/variables";
+@use "abstracts/mixin";
+@use "components/header";
 // @import "components/container";
 // @import "components/footer";
-// @import "components/menu";
+// @import "components/menu"; //! не правильно, используй @use
 
 // о компании

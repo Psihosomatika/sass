@@ -2,6 +2,8 @@
 @use "abstracts/variables";
 @use "abstracts/mixin";
 @use "components/header";
+@use "components/main";
+
 // @import "components/container";
 // @import "components/footer";
 // @import "components/menu"; //! не правильно, используй @use
